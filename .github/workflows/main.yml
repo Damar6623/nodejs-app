@@ -1,8 +1,8 @@
-name: CICD
+name: test
 
 on:
   push:
-    branches: cicd-docker-ec2]
+    branches: [cicd-docker-ec2]
     
 jobs:
   build-and-deploy:
